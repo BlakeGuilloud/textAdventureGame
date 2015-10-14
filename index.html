@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kombat Wombats</title>
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+  <div id="container">
+    <div id="bigLiu">
+      <div id="open">
+        <p>
+          You have chosen Liu Kang. Are you ready?
+        </p>
+        <button type="button" onclick="bridgeR()"name="button">Yes</button>
+        <button type="button" onclick="boatR()"name="button">No</button>
+        <button type="button" onclick="home()"name="button">Home</button>
+
+      </div>
+
+      <div id="bridgeR">
+        <p>You set out on your righteous adventure! Within minutes of ditching Raiden, you find yourself in some serious shit. <br>
+          Quan Chi shows up and wants your soul. Any ideas?
+        </p>
+        <button type="button" onclick="battleQuan()"name="button">Fight</button>
+        <button type="button" onclick="boatR()"name="button">Run</button>
+        <button type="button" onclick="home()"name="button">Home</button>
+      </div>
+
+      <div id="battleQuan">
+        <p>
+          Great work! You defeated the evil sorceror Quan Chi. He never gives up though.
+          <br>
+          <br>
+          <br>
+          After walking the countryside for days in dis-[] (A joke for calvin), you find yourself in the company of the unexpected!
+        </p>
+        <button type="button" onclick="kitana()"name="button">Follow Kitana</button>
+        <button type="button" onclick="kintaro()"name="button">Follow Kintaro</button>
+        <button type="button" onclick="home()"name="button">Home</button>
+      </div>
+
+      <div id="boatR">
+        <p>
+          TOO BAD! You have been captured by Pirates of OutWorld and will spend the rest of your days in Javascript Purgatory!
+        </p>
+        <button type="button" onclick="purg()"name="button">Ok...</button>
+        <button type="button" onclick="purg()"name="button">Yea Right...</button>
+        <button type="button" name="button"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Try to Escape</a></button>
+      </div>
+
+      <div id="kitana">
+        <p>
+          Congratulations! You have followed the woman of your dreams straight to Edenia, and have completed your quest!
+        </p>
+        <button type="button" onclick="home()"name="button">Home</button>
+      </div>
+
+      <div id="kintaro">
+        <p>
+          First off. What are you doing following a scrub like this while passing up on your woman? You deserve to spend the rest of your days in Outworld!
+        </p>
+        <img src="http://vignette4.wikia.nocookie.net/mkwikia/images/c/c0/Kintaro.gif/revision/latest?cb=20110126200555" alt="">
+      </div>
+
+      <div id="boatR">
+        <p>sagsdggggdf</p>
+      </div>
+
+      <div id="boatR">
+        <p>swwwwwwwadf</p>
+      </div>
+
+      <img src="liuKang.jpg" alt="">
+    </div>
+    <h1>BEGIN YOUR ADVENTURE</h1>
+    <H2>SELECT A CHAMPION</H2>
+    <div class="wombats">
+      <ul>
+        <li id="liuID" onclick="appendLiu()">LIU KANG</li>
+        <li id="subID" onclick="appendSub()">SUB-ZERO</li>
+        <li id="barakaID" onclick="appendBaraka()">BARAKA</li>
+      </ul>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+  <script src="app.js" charset="utf-8"></script>
+</body>
+</html>
