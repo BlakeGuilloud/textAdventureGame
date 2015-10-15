@@ -1,5 +1,5 @@
 #container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   border: 2px solid red;
   height: 500px;
@@ -11,7 +11,8 @@
   overflow: hidden; }
 
 #bigLiu {
-  display: none; }
+  display: none;
+  width: 80%; }
 
 #bigLiu img {
   width: 100%; }
@@ -39,6 +40,12 @@
 
 #kintaro {
   display: none; }
+
+#bigSub {
+  width: 80%; }
+
+p {
+  height: 70px; }
 
 .wombats {
   width: 100%; }

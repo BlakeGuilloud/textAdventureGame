@@ -5,7 +5,8 @@ fighter.baraka = "Baraka";
 
 function home(){
   document.getElementById('bigLiu').style.display = "none";
-  document.getElementById('bridgeR').style.display = "none";
+  document.getElementById('bigSub').style.display = "none";
+
   console.log('Liu Kang')
 };
 function appendLiu(){
@@ -57,19 +58,54 @@ function purg(){
 
 
 
-
-
-
-
-
-
+function homeS(){
+  document.getElementById('bigSub').style.display = "none";
+  console.log('Sub Zero')
+};
 
 function appendSub(){
-
-
-
+  document.getElementById('bigSub').style.display = "block";
+  document.getElementById('bridgeS').style.display = "none";
+  document.getElementById('frozenLake').style.display = "none";
+  document.getElementById('freeze').style.display = "none";
+  document.getElementById('finishHim').style.display = "none";
+  document.getElementById('continueS').style.display = "none";
+  document.getElementById('attackS').style.display = "none";
   console.log('SubZero')
 }
+
+function bridgeS(){
+  document.getElementById('bridgeS').style.display = "block";
+  document.getElementById('openS').style.display = "none";
+}
+
+function frozenLake(){
+  document.getElementById('frozenLake').style.display = "block";
+  document.getElementById('bridgeS').style.display = "none";
+  document.getElementById('openS').style.display = "none";
+}
+
+function freeze(){
+  document.getElementById('freeze').style.display = "block";
+  document.getElementById('bridgeS').style.display = "none";
+}
+
+function finishHim(){
+  document.getElementById('finishHim').style.display = "block";
+  document.getElementById('freeze').style.display = "none";
+}
+
+function continueS(){
+  document.getElementById('continueS').style.display = "block";
+  document.getElementById('freeze').style.display = "none";
+}
+
+function attackS() {
+  document.getElementById('attackS').style.display = "block";
+  document.getElementById('continueS').style.display = "none";
+}
+
+
 
 function appendBaraka(){
   console.log('Baraka')
